@@ -9,7 +9,7 @@ printf "\n${proxy}"
 printf "\n${email}\n"
 
 cp -rf __init-letsencrypt.sh init-letsencrypt.sh
-cp -rf data/nginx/__app.conf data/nginx/app.conf
+cp -rf data/nginx/__app.conf.base data/nginx/app.conf
 
 sed -i "s/email@email.com/${email}/g" init-letsencrypt.sh
 sed -i "s/example.org/${domain}/g" init-letsencrypt.sh
