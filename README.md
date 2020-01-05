@@ -1,1 +1,2 @@
-Just ./start.sh
+./start.sh
+Done.
